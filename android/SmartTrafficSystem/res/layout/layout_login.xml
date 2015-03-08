@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="40dp" >
+
+        <EditText
+            android:id="@+id/etPengguna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID Pengguna"
+            android:text="edof0703" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/etBirthdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etPengguna"
+            android:hint="TglLahir"
+            android:text="1997-03-07" />
+        
+         <EditText
+            android:id="@+id/etLicenseNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etBirthdate"
+            android:hint="License Number"
+            android:text="B1234BAS" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login" />
+    </RelativeLayout>
+
+</RelativeLayout>
