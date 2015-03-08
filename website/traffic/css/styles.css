@@ -1,0 +1,47 @@
+@font-face{font-family:"myriad";src:url("../fonts/myriad-web-pro.eot?") format("eot"),url("../fonts/myriad-web-pro.woff") format("woff"),url("../fonts/myriad-web-pro.ttf") format("truetype"),url("../fonts/myriad-web-pro.svg#myriad-web-pro") format("svg");font-weight:normal;font-style:normal}
+body{font-family: myriad;background: #fff;overflow:hidden;}
+.no-padding-right{padding-right:0}
+.no-padding-left{padding-left:0}
+.no-padding{padding:0 !important}
+.no-float{float:none}
+.clear{clear:both}
+.center{text-align:center;}
+.right{text-align:right;}
+.float-left{float:left;}
+.float-right{float:right;}
+.cursor{cursor:pointer;}
+.white{background:#fff !important}
+
+#login #content .container{border-top:7px solid #22425A;width:100%;}
+#login #content .container .container-login{width:350px;margin:auto;text-align:center;position: absolute;top: 50%;margin-top: -150px;margin-left: -175px;left: 50%;}
+#login #content .container .container-login span{font-size:20px}
+#login #content .container .container-login form input[type=text],input[type=password]{border-radius:4px;border:1px solid #b9b9b9;width:100%;padding:10px 15px;margin-top:10px;font-size:15px}
+#login #content .container .container-login form input[type=submit]{border-radius:4px;border:none;padding:11px;width:100%;text-align:center;margin-top:10px;font-size:20px;background:#22425A;color:#fff}
+
+#header .container{border-top:7px solid #22425A;width:100%;}
+#header .menu-container{position: absolute;background:rgba(0,0,0,0.7);z-index:2;right:-126px;display:none;}
+#header .menu-container.show{display:block}
+#header .menu-container > div{text-align: center;color: #fff;padding: 15px 0;background:rgba(0,0,0,0.5);font-weight: bold;font-size: 15px}
+#header .menu-container ul{list-style:none;padding:0;}
+#header .menu-container ul li{text-align:center;}
+#header .menu-container ul li a{display:block;width:100%;color:#fff;text-decoration:none;padding:7px 30px;}
+#header .menu-container ul li a:hover{background:rgba(0,0,0,0.5);}
+#header .menu{position:absolute;top:20px;right:40px;z-index:3;font-size:30px;color:#22425A}
+#footer .container{text-align:center;background:#22425A;padding:12px;color:#fff}
+#content .container table{width:100% !important}
+#content .container table thead tr td{text-align:center;font-weight:bold;}
+#content .container .header{font-size:20px;padding:30px 0 10px}
+
+.col-register {padding: 2px 0px;}
+.col-register input[type=text],.col-register select{width:100%}
+.col-register select {padding:2px 0}
+
+.pin input[type=text]{font-size:110px;text-align:center;width:330px}
+.number button{font-size:50px;width:110px}
+
+@media screen and (max-width: 992px) {
+#header .menu{top:20px;right:20px;}
+}
+@media screen and (max-width: 767px) {
+#content .container .for-table{overflow-y:auto;}
+}
